@@ -47,4 +47,4 @@ predictions = pipeline.named_steps['svr'].predict(normalized_x)
 
 print(predictions)
 
-st.text(f'Inflation will likely be {predictions}.')
+st.text(f'Inflation will likely be {predictions[0]}.')
