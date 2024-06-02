@@ -26,6 +26,8 @@ savename = model_path
 with open(savename, 'rb') as f:
     pipeline = pickle.load(f)
 
+st.set_page_config(layout="wide")
+
 st.title("Inflation estimator")
 
 gas = st.number_input("How much more expensive will gasoline compared to 12 months prior? Input a value as a percent without the percent sign?")
