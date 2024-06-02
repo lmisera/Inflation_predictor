@@ -47,4 +47,4 @@ predictions = pipeline.named_steps['svr'].predict(normalized_x)
 
 print(predictions)
 
-st.text(f'Inflation will likely be {predictions[0]}.')
+st.text(f'\nInflation will likely be {predictions[0]}%, compared to {previous_month_inflation} year-over-year inflation last month.')
