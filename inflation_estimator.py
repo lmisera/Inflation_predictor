@@ -18,7 +18,7 @@ import os
 
 
 current_dir = os.path.dirname(__file__)
-model_path = os.path.join(current_dir, 'model', 'svr_model_5.26.24.sav')
+model_path = os.path.join(current_dir, 'models', 'svr_model_5.26.24.sav')
 
 
 #load model
